@@ -45,6 +45,7 @@ function uploadCar2()
     ctx.drawImage(car2_imgTag,car2_x,car2_y,car2_width,car2_height);
 }
 
+
 window.addEventListener("keydown",my_keydown);
 function my_keydown(e)
 {
