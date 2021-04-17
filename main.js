@@ -37,12 +37,12 @@ function uploadBackground()
 
 function uploadCar1()
 {
-    ctx.drawImage(car1_image,car1_x,car1_y,car1_width,car1_height);
+    ctx.drawImage(car1_imgTag,car1_x,car1_y,car1_width,car1_height);
 }
 
 function uploadCar2()
 {
-    ctx.drawImage(car2_image,car2_x,car2_y,car2_width,car2_height);
+    ctx.drawImage(car2_imgTag,car2_x,car2_y,car2_width,car2_height);
 }
 
 window.addEventListener("keydown",my_keydown);
